@@ -1,9 +1,6 @@
 @import "variables.scss";
 
 .content-container {
-  // margin: auto;
-  // width: 60%;
-  // padding: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -39,11 +36,23 @@
   }
 
   clr-icon[shape="success-standard"] {
-    color: $clr-green;
+    color: $clr-blue;
   }
 
   clr-icon[shape="error-standard"] {
     color: $clr-red;
+  }
+
+  clr-icon[shape="circle"] {
+    color: $clr-blue;
+  }
+
+  clr-icon[shape="map-marker"] {
+    color: $clr-blue;
+  }
+
+  clr-icon[shape="circle"].det {
+    color: #f6a800;
   }
 }
 
@@ -52,7 +61,13 @@
   line-height: $clr-timeline-step-title-line-height;
 }
 
+.clr-timeline-step-heade {
+  line-height: $clr-timeline-step-title-line-height;
+}
+
 .clr-timeline-step-title {
+  font-size: 16px;
+  width: 250%;
   color: $clr-timeline-step-title-color;
   line-height: $clr-timeline-step-title-line-height;
   margin-bottom: $clr-timeline-horizontal-step-title-padding-bottom;
@@ -60,6 +75,8 @@
 
 .clr-timeline-step-description {
   color: $clr-timeline-step-description-color;
+  font-family: Montserrat;
+  font-size: 14px;
   button {
     display: block;
     width: 100%;
@@ -71,6 +88,19 @@
 }
 
 // specific styles for vertical timeline
+
+.descriptions {
+  text-align: center;
+  width: 200%;
+  position: relative;
+}
+
+.ship {
+  font-family: Montserrat;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .clr-timeline.clr-timeline-vertical {
   flex-direction: column;
   min-width: $clr-timeline-vertical-min-width;
@@ -86,7 +116,7 @@
     &:not(:last-of-type) .clr-timeline-step-body::before {
       content: "";
       position: absolute;
-      background: $clr-timeline-line-color;
+      background: #428bca;
       width: $clr-timeline-line-thickness;
       height: calc(100% + 2 * #{$clr-timeline-icon-inner-padding});
       transform: translate(
@@ -99,7 +129,18 @@
   }
 
   .clr-timeline-step-header {
-    text-align: right;
+    font-size: 15px;
+    font-family: Montserrat;
+    text-align: left;
+    min-width: $clr-timeline-vertical-step-header-min-width;
+    width: $clr-timeline-vertical-step-header-min-width;
+    margin-right: $clr-timeline-vertical-step-header-right-padding;
+    margin-top: $clr-timeline-vertical-step-header-top-padding;
+  }
+
+  .clr-timeline-step-heade {
+    font-size: 12px;
+    text-align: left;
     min-width: $clr-timeline-vertical-step-header-min-width;
     width: $clr-timeline-vertical-step-header-min-width;
     margin-right: $clr-timeline-vertical-step-header-right-padding;

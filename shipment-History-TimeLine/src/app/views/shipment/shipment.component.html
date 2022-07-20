@@ -1,78 +1,166 @@
 <div class="main-container">
-  <!-- <header class="header-2">
-    <div class="branding">
-      <a class="nav-link">
-        <clr-icon shape="home" size="24"></clr-icon>
-        <span class="title">Shipment History TimeLine</span>
-      </a>
-    </div>
-    <div class="header-nav">
-      <a class="active nav-link nav-text">Home</a>
-    </div>
-  </header> -->
   <div class="content-container">
     <div class="content-area">
-      <h4>Shipment History</h4>
-
-      <ul class="clr-timeline clr-timeline-vertical" style="width: 400px">
+      <h4 class="ship">Shipment History</h4>
+      <ul class="clr-timeline clr-timeline-vertical">
         <li class="clr-timeline-step">
-          <div class="clr-timeline-step-header">11:59 am</div>
-          <clr-icon shape="circle" aria-label="Not started"></clr-icon>
+          <div class="clr-timeline-step-header">May 4th</div>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-heade">2:15pm</div>
+          <clr-icon
+            shape="success-standard"
+            aria-label="Completed"
+            size="10"
+          ></clr-icon>
           <div class="clr-timeline-step-body">
-            <span class="clr-timeline-step-title">Add KMS</span>
-            <span class="clr-timeline-step-description"
-              >Root CA certificate requested.</span
-            >
+            <span class="clr-timeline-step-title">Delivered</span>
+            <span class="clr-timeline-step-description">Signed for</span>
           </div>
+          <span class="descriptions">Omaha, NE</span>
         </li>
         <li class="clr-timeline-step">
-          <div class="clr-timeline-step-header">11:59 am</div>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-heade">1:55pm</div>
+          <clr-icon shape="circle" class="is-solid" size="10"></clr-icon>
+          <div class="clr-timeline-step-body">
+            <span class="clr-timeline-step-title">Arrived At Your Place</span>
+            <span class="clr-timeline-step-description"> </span>
+          </div>
+          <span class="descriptions">Omaha, NE</span>
+        </li>
+        <li class="clr-timeline-step">
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-heade">1:35pm</div>
           <clr-icon
-            shape="dot-circle"
+            shape="circle"
+            class="is-solid"
+            aria-label="Not started"
+          ></clr-icon>
+          <div class="clr-timeline-step-body">
+            <span class="clr-timeline-step-title"
+              >Next Stop, Currently In:</span
+            >
+          </div>
+          <span class="descriptions">Omaha, NE</span>
+        </li>
+        <li class="clr-timeline-step">
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-heade">10:27am</div>
+          <clr-icon
+            shape="circle"
+            class="is-solid"
+            aria-label="Not started"
+          ></clr-icon>
+          <div class="clr-timeline-step-body">
+            <span class="clr-timeline-step-title">Out For Delivery</span>
+          </div>
+          <span class="descriptions">Omaha, NE</span>
+        </li>
+        <li class="clr-timeline-step">
+          <div class="clr-timeline-step-header">May 3rd</div>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-heade">7:32am</div>
+          <clr-icon
+            shape="circle"
+            class="is-solid"
             aria-current="true"
             aria-label="Current"
           ></clr-icon>
           <div class="clr-timeline-step-body">
-            <span class="clr-timeline-step-title">Add KMS</span>
+            <span class="clr-timeline-step-title">Service Scheduled</span>
             <span class="clr-timeline-step-description">
-              Root CA certificate requested. Upload it to the KMS to complete
-              the connection.
-              <!-- <img src="assets/placeholder_350x150.png" alt="Example of an Image in a Card" /> -->
-              <!-- <img src="https://clarity.design/assets/images/documentation/cards/placeholder_350x150.png" alt="Example of an Image in a Card" /> -->
+              Customer Requested - Rescheduled for May 4th
             </span>
           </div>
+          <span class="descriptions">Omaha, NE</span>
         </li>
         <li class="clr-timeline-step">
-          <span class="clr-timeline-step-header">11:59 am</span>
-          <clr-icon shape="spinner" aria-label="In progress"></clr-icon>
+          <div class="clr-timeline-step-header">May 1st</div>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-heade">9:34am</div>
+          <clr-icon
+            shape="circle"
+            class="is-solid"
+            class="det"
+            aria-current="true"
+            aria-label="Current"
+          ></clr-icon>
           <div class="clr-timeline-step-body">
-            <span class="clr-timeline-step-title">Make vCenter trust KMS</span>
-            <span class="clr-timeline-step-description">
-              Root CA certificate requested. Upload it to the KMS to complete
-              the connection. Third sentence is very long and very long.
-            </span>
+            <span class="clr-timeline-step-title">Shipment Delayed</span>
+            <span class="clr-timeline-step-description"> Weather Delay </span>
           </div>
+          <span class="descriptions">Omaha, NE</span>
         </li>
         <li class="clr-timeline-step">
-          <div class="clr-timeline-step-header">11:59 am</div>
-          <clr-icon shape="success-standard" aria-label="Completed"></clr-icon>
+          <div class="clr-timeline-step-header">April 27th</div>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-heade">10:27am</div>
+          <clr-icon
+            shape="circle"
+            class="is-solid"
+            aria-current="true"
+            aria-label="Current"
+          ></clr-icon>
           <div class="clr-timeline-step-body">
-            <span class="clr-timeline-step-title">Make KMS trust vCenter</span>
-            <span class="clr-timeline-step-description"
-              >Upload it to the KMS to complete the connection. Third sentence.
-              <button class="btn btn-sm">Refresh</button>
+            <span class="clr-timeline-step-title">Service Scheduled</span>
+            <span class="clr-timeline-step-description">
+              Scheduled for May 2nd
             </span>
           </div>
+          <span class="descriptions">Omaha, NE</span>
+        </li>
+        <li class="clr-timeline-step">
+          <div class="clr-timeline-step-header">April 26th</div>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-heade">2:30am</div>
+          <clr-icon
+            shape="circle"
+            class="is-solid"
+            aria-current="true"
+            aria-label="Current"
+          ></clr-icon>
+          <div class="clr-timeline-step-body">
+            <span class="clr-timeline-step-title"
+              >Received at Local Facility</span
+            >
+          </div>
+          <span class="descriptions">Omaha, NE</span>
         </li>
         <li class="clr-timeline-step">
           <div class="clr-timeline-step-header"></div>
-          <clr-icon shape="error-standard" aria-label="Error"></clr-icon>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-heade">2:15pm</div>
+          <clr-icon
+            shape="circle"
+            class="is-solid"
+            aria-current="true"
+            aria-label="Current"
+          ></clr-icon>
           <div class="clr-timeline-step-body">
-            <span class="clr-timeline-step-title">Connected</span>
-            <span class="clr-timeline-step-description"
-              >No. It's not connected.</span
+            <span class="clr-timeline-step-title">Departed Local Facility</span>
+            <span class="clr-timeline-step-description">Signed for</span>
+          </div>
+          <span class="descriptions">Omaha, NE</span>
+        </li>
+        <li class="clr-timeline-step">
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-header"></div>
+          <div class="clr-timeline-step-heade">1:35pm</div>
+          <clr-icon
+            shape="map-marker"
+            size="10"
+            aria-current="true"
+            aria-label="Current"
+          ></clr-icon>
+          <div class="clr-timeline-step-body">
+            <span class="clr-timeline-step-title"
+              >Arrived at Local Facility</span
             >
           </div>
+          <span class="descriptions">Omaha, NE</span>
         </li>
       </ul>
     </div>

@@ -1,6 +1,7 @@
 // BEGIN: Stackblitz demo ONLY
 // The colors copied from  stackblitz demo purpose,
 // They are already defined in Clarity repo.
+$clr-blue: #428bca;
 $clr-green: #60b515;
 $clr-red: #c92100;
 $clr-gray: #737373;
@@ -13,8 +14,8 @@ $clr-color-neutral-1000: #000 !default;
 // colors
 // TODO: this color is in spec but not defined in Clarity
 $clr-timeline-line-color: #9b9b9b;
-$clr-timeline-step-header-color: $clr-color-neutral-600;
-$clr-timeline-step-title-color: $clr-color-neutral-1000;
+$clr-timeline-step-header-color: #1c355e;
+$clr-timeline-step-title-color: #1c355e;
 $clr-timeline-step-description-color: $clr-color-neutral-700;
 
 // 1rem = 24px
@@ -36,7 +37,7 @@ $clr-timeline-vertical-step-min-width: 7.333333rem;
 $clr-timeline-vertical-gutter-width: 1.5rem;
 
 // vertical
-$clr-timeline-vertical-step-header-min-width: 2.5rem;
+$clr-timeline-vertical-step-header-min-width: 3.5rem;
 $clr-timeline-vertical-step-header-top-padding: 0.25rem;
 $clr-timeline-vertical-step-header-right-padding: 0.5rem;
 
